@@ -17,13 +17,8 @@ public class Practica1 {
         int z = scanner.nextInt();
 
         int y = 1;
-
-        if (x == 1 && z == 10) {
             int r = SumaCuadrados(x, y, z);
             System.out.println("La suma de los cuadrados de los primeros 10 numeros es: " + r);
-        } else {
-            System.out.println("Te estoy diciendo que escribas 1 y 10 🙄.");
-        }
     }
 
     public static int SumaCuadrados(int x, int y, int z) {
